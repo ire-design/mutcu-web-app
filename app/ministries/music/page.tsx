@@ -251,7 +251,7 @@ export default function MusicMinistry() {
                     value={formData.name}
                     onChange={(e) => setFormData({...formData, name: e.target.value})}
                     className="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-[#FF9800] focus:outline-none transition-colors"
-                    placeholder="John Doe"
+                    placeholder="Irene Musau"
                   />
                 </div>
                 
@@ -263,7 +263,7 @@ export default function MusicMinistry() {
                     value={formData.email}
                     onChange={(e) => setFormData({...formData, email: e.target.value})}
                     className="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:border-[#FF9800] focus:outline-none transition-colors"
-                    placeholder="john@mut.ac.ke"
+                    placeholder="irene@mut.ac.ke"
                   />
                 </div>
                 
